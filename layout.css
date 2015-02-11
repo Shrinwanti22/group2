@@ -101,6 +101,9 @@ section
 footer{
 	width: 100%;	
 	overflow: hidden;
+	background-color: #373942;
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
 }
 .text{
 	margin-top: 20px;
