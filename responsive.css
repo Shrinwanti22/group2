@@ -2,16 +2,11 @@
 
 @media (max-width: 600px) {
   .container{
-    width: 96%;
-  }
+      width: 96%;
+    }
 }
 @media (max-width: 250px) {
   .horizontal_line{
-    width: 12%;
-  }
-}
-@media (min-width: 1500px) {
-  .container{
-
-  }
+      width: 12%;
+    }
 }
