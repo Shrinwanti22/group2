@@ -112,13 +112,11 @@ header{
 
 
 .dots_navigation{
-	padding: 4px 0px;
 }
 .dots{
 	position: relative;
 	color: #BCBCC0;
 	cursor: pointer;
-	text-shadow: 0px 0px 5px white;
 	float: left;
 }
 .horizontal_line{
