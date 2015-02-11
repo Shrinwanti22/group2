@@ -8,14 +8,16 @@ body{
 	width: 93%;
 	font-family: arial;
 	float: left;
-	
+	box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.20)
 
 }
 .container{
-	margin-left: auto;
-	margin-right: auto;
+
 	width: 325px;
 	overflow: hidden;
+	padding: 15px;
+	margin-left: auto;
+	margin-right: auto;
 }
 .shape{
 	width: 0; 
@@ -26,16 +28,23 @@ body{
 	float: left;
 	margin-top: 23px;
 	width: 3%;
+	position: relative;
 }
 .top_section{
 	padding: 20px;
 }
 .title
 {
-	color: #727272;
-	font-size: 25px;
+	
 	width: 90%;
 	float: left;
+}
+.title h1{
+	color: #727272;
+	font-size: 25px;
+	font-weight: 300;
+	padding: 0px;
+	margin:0px;
 }
 .icon{
 
@@ -98,4 +107,30 @@ footer{
 }
 header{
 	overflow: hidden;
+}
+
+
+
+.dot_navigation{
+	position: absolute;
+	padding: 4px 0px;
+}
+.dots{
+	position: relative;
+	width: 8px;
+	height: 8px;
+	border-radius: 4px;
+	background-color: #000;
+	cursor: pointer;
+	box-shadow: 0px 0px 5px red;
+	float: left;
+}
+.horizontal_line{
+	border-top: 1px solid black;
+	width: 10px;
+	position: relative;
+	float: left;
+	margin-top: 4px;
+}
+.dot:hover{
 }
