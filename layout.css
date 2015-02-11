@@ -18,14 +18,14 @@ body{
 	overflow: hidden;
 }
 .shape{
-	 width: 0; 
-  height: 0; 
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;   
-  border-right:10px solid white; 
-  float: left;
-  margin-top: 23px;
-  width: 3%;
+	width: 0; 
+	height: 0; 
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;   
+	border-right:10px solid white; 
+	float: left;
+	margin-top: 23px;
+	width: 3%;
 }
 .top_section{
 	padding: 20px;
