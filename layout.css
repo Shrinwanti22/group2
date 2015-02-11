@@ -5,11 +5,27 @@ body{
 {
 	background-color: white;
 	border-radius: 5px;
-	width: 350px;
+	width: 93%;
 	font-family: arial;
+	float: left;
+	
+
+}
+.container{
 	margin-left: auto;
 	margin-right: auto;
-
+	width: 325px;
+	overflow: hidden;
+}
+.shape{
+	 width: 0; 
+  height: 0; 
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;   
+  border-right:10px solid white; 
+  float: left;
+  margin-top: 23px;
+  width: 3%;
 }
 .top_section{
 	padding: 20px;
@@ -17,7 +33,19 @@ body{
 .title
 {
 	color: #727272;
+	font-size: 25px;
+	width: 90%;
+	float: left;
 }
+.icon{
+
+	width: 10%;
+	float: right;
+	text-align: right;	
+	margin-top:2px;
+	cursor: pointer;
+}
+
 
 section
 {
@@ -27,12 +55,12 @@ section
 .black
 {
 	width: 64%;
-	padding: 3%;
+	padding: 15px 3%;
 	background-color: #3c3c3c;
 	float: left;
 	border-bottom-left-radius:5px;
-}
 
+}
 .step
 {
 	color: #fdffef;
@@ -51,12 +79,13 @@ section
 	background-color: #43c2ff;
 	color: #fdffef;
 	width: 24%;
-	padding: 3%;
+	padding: 15px 3%;
 	float: left;
 	text-align: center;
 	font-size: 12px;
 	line-height: 1.5;
 	border-bottom-right-radius:5px;
+
 }
 footer{
 	width: 100%;	
@@ -64,6 +93,9 @@ footer{
 }
 .text{
 	margin-top: 20px;
-	line-height: 2;
+	line-height: 1.7;
 	font-size: 14px;
+}
+header{
+	overflow: hidden;
 }
