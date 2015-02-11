@@ -136,5 +136,11 @@ header{
 	float: left;
 	margin-top: 4px;
 }
+a:link, a:visited, a:active
+{
+color:white;
+text-decoration: none;
+}
+
 
 
