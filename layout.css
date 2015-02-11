@@ -1,0 +1,33 @@
+.main
+{
+	background-color: #fdffef;
+	border-radius: 5px;
+	width: 80%;
+	font-family: arial;
+}
+
+.title
+{
+	color: #727272;
+}
+
+section
+{
+	color: #9f9e9e;
+}
+
+.black
+{
+	background-color: #3c3c3c;
+}
+
+.step
+{
+	color: #fdffef;
+}
+
+.next
+{
+	background-color: #43c2ff;
+	color: #fdffef;
+}
