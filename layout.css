@@ -27,7 +27,7 @@ body{
 	border-right:10px solid white; 
 	float: left;
 	margin-top: 23px;
-	width: 3%;
+
 	position: relative;
 }
 .top_section{
@@ -55,7 +55,6 @@ body{
 	cursor: pointer;
 }
 
-
 section
 {
 	color: #9f9e9e;
@@ -65,7 +64,7 @@ section
 {
 	width: 64%;
 	padding: 15px 3%;
-	background-color: #3c3c3c;
+	background-color: #373942;
 	float: left;
 	border-bottom-left-radius:5px;
 
@@ -85,7 +84,7 @@ section
 
 .next
 {
-	background-color: #43c2ff;
+	background-color: #6CB5F4;
 	color: #fdffef;
 	width: 24%;
 	padding: 15px 3%;
@@ -94,7 +93,7 @@ section
 	font-size: 12px;
 	line-height: 1.5;
 	border-bottom-right-radius:5px;
-
+	cursor: pointer;
 }
 footer{
 	width: 100%;	
@@ -108,23 +107,27 @@ footer{
 header{
 	overflow: hidden;
 }
-
-
-
 .dots_navigation{
+	margin-top: 4px;
 }
 .dots{
 	position: relative;
 	color: #BCBCC0;
 	cursor: pointer;
 	float: left;
+	font-size: 8px !important;
 }
+.dots:hover, .glow{
+	color: white;
+	text-shadow: 0px 0px 8px white;	
+}
+
 .horizontal_line{
-	border-top: 1px solid black;
-	width: 10px;
+	border-top: 1px solid rgba(179, 179, 179, 0.4);
+	width: 15%;
 	position: relative;
 	float: left;
 	margin-top: 4px;
 }
-.dot:hover{
-}
+
+
