@@ -27,7 +27,6 @@ body{
 	border-right:10px solid white; 
 	float: left;
 	margin-top: 23px;
-
 	position: relative;
 }
 .top_section{
@@ -84,6 +83,7 @@ section
 
 .next
 {
+
 	background-color: #6CB5F4;
 	color: #fdffef;
 	width: 24%;
@@ -105,6 +105,7 @@ footer{
 	background-color: #373942;
 	border-bottom-left-radius:5px;
 	border-bottom-right-radius:5px;
+
 }
 .text{
 	margin-top: 20px;
@@ -114,6 +115,7 @@ footer{
 header{
 	overflow: hidden;
 }
+
 .dots_navigation{
 	margin-top: 5px;
 }
@@ -136,11 +138,9 @@ header{
 	float: left;
 	margin-top: 4px;
 }
+
 a:link, a:visited, a:active
 {
 color:white;
 text-decoration: none;
 }
-
-
-
