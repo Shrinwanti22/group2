@@ -87,7 +87,8 @@ section
 	background-color: #6CB5F4;
 	color: #fdffef;
 	width: 24%;
-	padding: 15px 3%;
+	padding: 18px 3%;
+	font-size: 12px;
 	float: right;
 	text-align: center;
 	border-bottom-right-radius:5px;
@@ -114,7 +115,7 @@ header{
 	overflow: hidden;
 }
 .dots_navigation{
-	margin-top: 4px;
+	margin-top: 5px;
 }
 .dots{
 	position: relative;
